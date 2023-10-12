@@ -7,6 +7,7 @@ import { ProfileComponent } from './components/profile/profile/profile.component
 import { EditProfileComponent } from './components/profile/edit-profile/edit-profile.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
 import { QuizAttemptsComponent } from './components/quiz-attempts/quiz-attempts.component';
+import { OrderHistoryComponent } from './components/order-history/order-history.component';
 
 const routes: Routes = [
   //Dashboard
@@ -21,6 +22,8 @@ const routes: Routes = [
 
   //Quiz Attempts
   { path: 'quizzes', component: QuizAttemptsComponent },
+
+  { path: 'orderhistory', component: OrderHistoryComponent },
 
   //reviews
   { path: 'reviews', component: ReviewsComponent },

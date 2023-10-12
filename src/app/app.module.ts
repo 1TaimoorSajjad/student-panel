@@ -12,6 +12,7 @@ import { ProfileComponent } from './components/profile/profile/profile.component
 import { EditProfileComponent } from './components/profile/edit-profile/edit-profile.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
 import { QuizAttemptsComponent } from './components/quiz-attempts/quiz-attempts.component';
+import { OrderHistoryComponent } from './components/order-history/order-history.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { QuizAttemptsComponent } from './components/quiz-attempts/quiz-attempts.
     EditProfileComponent,
     WishlistComponent,
     QuizAttemptsComponent,
+    OrderHistoryComponent,
   ],
   imports: [BrowserModule, AppRoutingModule,
     ReactiveFormsModule],
